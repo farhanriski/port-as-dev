@@ -1,0 +1,120 @@
+/* Reset some default styles and apply a basic font */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Set a background color for the body and add some spacing */
+body {
+  background-color: #edf3e4;
+  padding: 20px;
+}
+
+#bio {
+  display: flex;
+  align-items: center;
+}
+
+#ava {
+  height: 12cm;
+  border-radius:25px;
+}
+
+/* Styling for the text content */
+#bio > div:last-child {
+  padding: 20px;
+}
+
+#bio h2 {
+  font-size: 100px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+#bio p {
+  font-size: 15px;
+}
+
+/* Style the header with a background color and add spacing */
+header {
+  background-color: #c5d198;
+  color: #000000;
+  text-align: center;
+  padding: 10px 0;
+  border-radius: 25px;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: fixed;
+  width: calc(100% - 20px); /* Adjust the width as needed */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header h1 {
+  padding-left: 1rem;
+}
+
+/* Style the navigation menu */
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  color: #000000;
+}
+
+/* Style the main content area */
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px 10px;
+  background-color: #edf3e4;
+}
+
+h2 {
+  font-size: 120px;
+}
+
+/* Style the sections with padding and spacing */
+section {
+  padding: 20px 0;
+}
+
+/* Style the project containers */
+.project {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #d2fa3c;
+  border-radius: 10px;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+/* Style the footer with a background color and add spacing */
+footer {
+  text-align: center;
+  background-color: #d2fa3c;
+  color: #000000;
+  padding: 10px 0;
+  border-radius: 25px;
+  font-weight: bold;
+}

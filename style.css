@@ -3,6 +3,7 @@ body,
 h1,
 h2,
 h3,
+h4,
 p {
   margin: 0;
   padding: 0;
@@ -96,7 +97,7 @@ section {
 /* Style the project containers */
 .project {
   border: 1px solid #ccc;
-  padding: 10px;
+  padding: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
   background-color: #d2fa3c;
@@ -107,6 +108,22 @@ section {
   max-width: 100%;
   height: auto;
   margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.project h3 {
+  background-color: #fff;
+  padding: 7px 7px;
+  border-radius: 10px;
+  display: inline-block;
+  font-size: 30px;
+}
+.project h4 {
+  padding-top: 7px;
+}
+
+.project p {
+  font-size: 15px;
 }
 
 /* Style the footer with a background color and add spacing */

@@ -58,7 +58,7 @@ header {
   justify-content: space-between;
 }
 header h1 {
-  padding-left: 1rem;
+  padding-left: 2rem;
 }
 
 /* Style the navigation menu */
@@ -94,6 +94,10 @@ section {
   padding: 20px 0;
 }
 
+.intro {
+  text-align: justify;
+}
+
 /* Style the project containers */
 .project {
   border: 1px solid #ccc;
@@ -112,19 +116,25 @@ section {
 }
 
 .project h3 {
-  background-color: #fff;
-  padding: 7px 7px;
   border-radius: 10px;
-  display: inline-block;
   font-size: 30px;
+}
+
+.project h3 a {
+text-decoration: none;
+color: #000000;
 }
 .project h4 {
   padding-top: 7px;
 }
 
 .project p {
+  padding-top: 1rem;
   font-size: 15px;
+  text-align: justify;
 }
+
+
 
 /* Style the footer with a background color and add spacing */
 footer {

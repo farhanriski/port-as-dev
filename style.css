@@ -81,12 +81,17 @@ nav ul li a {
 main {
   max-width: 900px;
   margin: 40px auto;
+  margin-top: 80px;
   padding: 40px 10px;
   background-color: #edf3e4;
 }
 
 h2 {
   font-size: 120px;
+}
+
+h3 {
+  font-size: 50px;
 }
 
 /* Style the sections with padding and spacing */
@@ -96,6 +101,10 @@ section {
 
 .intro {
   text-align: justify;
+}
+
+#port {
+  padding-top: 80px;
 }
 
 /* Style the project containers */

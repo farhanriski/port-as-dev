@@ -14,9 +14,10 @@ p {
 body {
   background-color: #fff;
   padding: 20px;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+  padding-top: 0;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 #bio {

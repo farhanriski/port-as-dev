@@ -147,8 +147,8 @@ color: #000000;
 /* Style the footer with a background color and add spacing */
 footer {
   text-align: center;
-  background-color: #d2fa3c;
-  color: #000000;
+  background-color: #000000;
+  color: #fff;
   padding: 10px 0;
   border-radius: 25px;
   font-weight: bold;

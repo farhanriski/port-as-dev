@@ -12,7 +12,7 @@ p {
 
 /* Set a background color for the body and add some spacing */
 body {
-  background-color: #edf3e4;
+  background-color: #fff;
   padding: 20px;
 }
 
@@ -83,7 +83,7 @@ main {
   margin: 40px auto;
   margin-top: 80px;
   padding: 40px 10px;
-  background-color: #edf3e4;
+  background-color: #fff;
 }
 
 h2 {

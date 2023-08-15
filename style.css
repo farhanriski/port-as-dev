@@ -14,11 +14,15 @@ p {
 body {
   background-color: #fff;
   padding: 20px;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 #bio {
   display: flex;
   align-items: center;
+  margin: auto 150px;
 }
 
 #ava {
@@ -39,6 +43,7 @@ body {
 
 #bio p {
   font-size: 15px;
+  padding-left: 7px;
 }
 
 /* Style the header with a background color and add spacing */

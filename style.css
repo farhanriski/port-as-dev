@@ -58,17 +58,18 @@ header {
   justify-content: space-between;
 }
 header h1 {
-  padding-left: 2rem;
+  padding-left: 4rem;
 }
 
 /* Style the navigation menu */
 nav ul {
   list-style: none;
+  margin-right: 20px;
 }
 
 nav ul li {
   display: inline;
-  margin-right: 20px;
+  margin-right: 50px;
 }
 
 nav ul li a {
@@ -78,8 +79,8 @@ nav ul li a {
 
 /* Style the main content area */
 main {
-  max-width: 900px;
-  margin: 40px auto;
+  max-width: full;
+  margin: 80px 80px;
   margin-top: 80px;
   padding: 40px 10px;
   background-color: #fff;

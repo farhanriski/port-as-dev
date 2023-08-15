@@ -149,7 +149,29 @@ color: #000000;
   text-align: justify;
 }
 
+#exp {
+  font-size: 18px;
+}
 
+#exp .experience {
+  display: flex;
+  margin-top: 30px;
+}
+
+#exp .year {
+  flex: 1;
+  font-style: italic;
+}
+
+#exp .name {
+  flex: 3;
+  font-weight: bold;
+}
+
+#exp .position {
+  flex: 2;
+  text-align: right;
+}
 
 /* Style the footer with a background color and add spacing */
 footer {

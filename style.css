@@ -115,35 +115,43 @@ section {
 
 /* Style the project containers */
 .project {
-  border: 1px solid #ccc;
+  border: 2px solid #000000;
   padding: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-color: #000000;
+  background-color: #fff;
   border-radius: 10px;
+  display: flex;
+  align-items: flex-start;
 }
 
-.project img {
+.images {
+  flex: 1;
+  padding: 20px;
+}
+
+.images img {
   max-width: 100%;
   height: auto;
-  margin-bottom: 10px;
-  border-radius: 8px;
-}
-
-.project h3 {
   border-radius: 10px;
-  font-size: 30px;
 }
 
-.project h3 a {
-text-decoration: none;
-color: #000000;
-}
-.project h4 {
-  padding-top: 7px;
+.content {
+  flex: 1;
+  padding: 20px;
 }
 
-.project p {
+.content h3 {
+  font-size: 50px;
+}
+
+.content h3 a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.content p {
+  font-size: 16px;
   padding-top: 1rem;
   font-size: 15px;
   text-align: justify;
@@ -182,3 +190,9 @@ footer {
   border-radius: 15px;
   font-weight: bold;
 }
+
+hr {
+  border: none; /* Remove default border */
+  border-top: 2px solid #000000; /* Set the top border to 2px solid black (#000000) */
+}
+

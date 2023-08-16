@@ -86,7 +86,7 @@ nav ul li a {
 /* Style the main content area */
 main {
   max-width: full;
-  margin: 80px 80px;
+  margin: 0px 80px;
   margin-top: 80px;
   padding: 40px 10px;
   background-color: #fff;

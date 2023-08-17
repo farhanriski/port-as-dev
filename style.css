@@ -17,6 +17,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  padding-bottom: 30px;
 }
 
 #home {
@@ -154,7 +155,7 @@ nav ul li a {
 /* Style the main content area */
 main {
   max-width: full;
-  margin: 0px 80px;
+  margin: 0px 100px;
   padding: 40px 10px;
   background-color: #fff;
 }
@@ -256,6 +257,8 @@ footer {
   padding: 10px 0;
   border-radius: 15px;
   font-weight: bold;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 hr {

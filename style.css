@@ -255,6 +255,18 @@ section {
   text-align: right;
 }
 
+
+#bawah {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+  color: #fff;
+  background-color: #000000;
+  border-radius: 30px;
+}
+
 /* Style the footer with a background color and add spacing */
 footer {
   text-align: center;

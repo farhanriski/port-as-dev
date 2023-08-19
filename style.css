@@ -113,12 +113,37 @@ body {
   box-sizing: border-box;
 }
 
+
 #bio {
   display: flex;
   align-items: center;
   margin: auto 150px;
   padding-top: 100px;
 }
+
+#contact-box {
+  background-color : #000000;
+  color: #ffffff;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+#contact-box {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+#contact-box h3 {
+  animation: marquee 12s linear infinite;
+}
+
 
 #ava {
   height: 12cm;
@@ -185,7 +210,6 @@ nav ul li a {
 main {
   max-width: full;
   margin: 0px 100px;
-  padding: 40px 10px;
   background-color: #fff;
 }
 
@@ -207,7 +231,7 @@ section {
 }
 
 #port {
-  padding-top: 80px;
+  padding-top : 80px;
 }
 
 /* Style the project containers */

@@ -113,6 +113,9 @@ body {
   box-sizing: border-box;
 }
 
+#pagesbio {
+  margin: 0px 100px;
+}
 
 #bio {
   display: flex;
@@ -140,8 +143,8 @@ body {
   white-space: nowrap;
 }
 
-#contact-box h3 {
-  animation: marquee 12s linear infinite;
+#contact-box h4 {
+  animation: marquee 30s linear infinite;
 }
 
 
@@ -209,7 +212,6 @@ nav ul li a {
 /* Style the main content area */
 main {
   max-width: full;
-  margin: 0px 100px;
   background-color: #fff;
 }
 
@@ -231,20 +233,41 @@ section {
 }
 
 #port {
-  padding-top : 80px;
+  padding-top : 100px;
+  background-color: #000;
+  border-radius: 40px;
+}
+
+#port h2 {
+  color: #fff;
+  font-size: 50px;
+  margin-left: 100px;
+}
+
+#port p {
+  color : #000000;
+  padding-bottom : 30px;
+}
+
+#port span {
+  color: #fff;
+}
+
+#portp {
+  margin-left: 100px;
 }
 
 /* Style the project containers */
 .project {
   border: 2px solid #000000;
-  padding: 20px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin: 30px 100px;
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 30px;
   display: flex;
   align-items: flex-start;
+  color: #000;
 }
+
 
 .images {
   flex: 1;
@@ -281,7 +304,10 @@ section {
 }
 
 #exp {
+  padding-top: 80px;
+  padding-bottom: 80px;
   font-size: 18px;
+  margin: 0px 100px;
 }
 
 #exp .experience {
@@ -304,17 +330,6 @@ section {
   text-align: right;
 }
 
-
-#bawah {
-  margin-top: 50px;
-  margin-bottom: 50px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  text-align: center;
-  color: #fff;
-  background-color: #000000;
-  border-radius: 30px;
-}
 
 /* Style the footer with a background color and add spacing */
 footer {

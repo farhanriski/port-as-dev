@@ -37,7 +37,7 @@ body {
 
 #home svg {
   position: absolute;
-  bottom: 10px;
+  bottom: 60px;
   width: 100%;
   text-align: center;
 }
@@ -103,6 +103,7 @@ body {
   display: flex;
   align-items: center;
   margin: auto 150px;
+  padding-top: 100px;
 }
 
 #ava {

@@ -1,10 +1,53 @@
+/* Media Queries */
+@media screen and (max-width: 896px) {
+header {
+  padding: 10px;
+}
+
+header h1 {
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+nav ul {
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  background-color: #000;
+  position: absolute;
+  top: 70px; /* Adjust the top position as needed */
+  left: 0;
+  width: 100%;
+  display: none;
+}
+
+nav ul.show {
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 0;
+  margin-bottom: 10px;
+}
+
+nav ul li:last-child {
+  margin-bottom: 0;
+}
+
+nav ul li a {
+  font-size: 18px;
+}
+
+}
+
+
 /* Reset some default styles and apply a basic font */
 body,
 h1,
 h2,
 h3,
 h4,
-p,a {
+p,
+a {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
@@ -42,9 +85,9 @@ body {
   text-align: center;
 }
 
-
 @keyframes bounce {
-  0%, 100% {
+  0%,
+  100% {
     transform: translateY(0);
   }
   50% {
@@ -55,7 +98,6 @@ body {
 #scroll-to-bio {
   animation: bounce 1s infinite;
 }
-
 
 .container {
   display: flex;
@@ -125,7 +167,7 @@ body {
 }
 
 #contact-box {
-  background-color : #000000;
+  background-color: #000000;
   color: #ffffff;
 }
 
@@ -146,7 +188,6 @@ body {
 #contact-box h4 {
   animation: marquee 30s linear infinite;
 }
-
 
 #ava {
   height: 12cm;
@@ -233,7 +274,7 @@ section {
 }
 
 #port {
-  padding-top : 100px;
+  padding-top: 100px;
   background-color: #000;
   border-radius: 40px;
 }
@@ -245,8 +286,8 @@ section {
 }
 
 #port p {
-  color : #000000;
-  padding-bottom : 30px;
+  color: #000000;
+  padding-bottom: 30px;
 }
 
 #port span {
@@ -267,7 +308,6 @@ section {
   align-items: flex-start;
   color: #000;
 }
-
 
 .images {
   flex: 1;
@@ -329,7 +369,6 @@ section {
   flex: 2;
   text-align: right;
 }
-
 
 /* Style the footer with a background color and add spacing */
 footer {

@@ -1,45 +1,19 @@
-/* Media Queries */
-@media screen and (max-width: 896px) {
-header {
-  padding: 10px;
+/* Style for the hamburger menu */
+.menu-toggle {
+  display: none; /* Hide the menu toggle initially */
+  cursor: pointer;
+  padding: 15px;
 }
 
-header h1 {
-  padding-left: 10px;
-  font-size: 20px;
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
 }
 
-nav ul {
-  flex-direction: column;
-  align-items: center; /* Center items horizontally */
-  background-color: #000;
-  position: absolute;
-  top: 70px; /* Adjust the top position as needed */
-  left: 0;
-  width: 100%;
-  display: none;
-}
-
-nav ul.show {
-  display: flex;
-}
-
-nav ul li {
-  margin-right: 0;
-  margin-bottom: 10px;
-}
-
-nav ul li:last-child {
-  margin-bottom: 0;
-}
-
-nav ul li a {
-  font-size: 18px;
-}
-
-}
-
-
+/* RESFONSIVE DESIGN */
 /* Reset some default styles and apply a basic font */
 body,
 h1,
@@ -66,7 +40,6 @@ body {
 }
 
 #home {
-  flex-wrap: wrap;
   font-family: Arial, sans-serif;
   display: flex;
   flex-direction: column; /* Stack sections vertically */
@@ -76,6 +49,7 @@ body {
   width: 100%;
   background-color: #000000;
   color: #ffffff;
+  padding: 20px; /* Add padding for better spacing */
 }
 
 #home svg {
@@ -250,6 +224,13 @@ nav ul li a {
   color: #fff;
 }
 
+.menu-icon {
+  display: none; /* Sembunyikan ikon hamburger pada tampilan desktop */
+  cursor: pointer;
+  font-size: 24px;
+  padding: 0.5rem;
+}
+
 /* Style the main content area */
 main {
   max-width: full;
@@ -385,4 +366,196 @@ footer {
 hr {
   border: none; /* Remove default border */
   border-top: 2px solid #000000; /* Set the top border to 2px solid black (#000000) */
+}
+
+/* Media query for mobile view */
+@media (max-width: 896px) {
+  /* Set font sizes for different headings */
+  h2 {
+    font-size: 12px;
+  }
+
+  h3 {
+    font-size: 12px;
+  }
+
+  /* Display menu toggle on mobile view */
+  .menu-toggle {
+    display: block;
+  }
+
+  /* Style the navigation menu */
+  .nav-menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+  }
+
+  .nav-menu.active {
+    display: block;
+  }
+
+  .nav-menu ul {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .nav-menu ul li {
+    display: block;
+    margin: 10px;
+  }
+
+  /* Style the bio section */
+  #bio {
+    display: flex;
+    flex-direction: column; /* Stack content vertically on smaller screens */
+    align-items: center;
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  #bio .bio-content {
+    max-width: 100%; /* Allow content to take full width on smaller screens */
+  }
+
+  #ava {
+    height: auto;
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    border-radius: 10px;
+  }
+
+  #bio h2 {
+    font-size: 12px; /* Adjust font size */
+    margin: 20px 0;
+    text-align: left; /* Center the heading */
+  }
+
+  #bio p {
+    font-size: 14px;
+    margin: 0;
+    padding: 10px;
+    text-align: left; /* Center the paragraph */
+  }
+
+  /* Adjust container for responsiveness */
+  .container {
+    display: flex;
+    flex-direction: column; /* Stack content vertically on smaller screens */
+    margin: 0 20px; /* Adjust margins for better spacing */
+    align-items: left;
+    text-align: left;
+  }
+
+  /* Styles for the left section */
+  .left-up h1 {
+    font-size: 24px; /* Reduce font size for smaller screens */
+  }
+
+  /* Styles for the right section */
+  .right-up img {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto;
+  }
+
+  /* Styles for the bottom section */
+  .left h1 {
+    font-size: 24px; /* Reduce font size for smaller screens */
+  }
+
+  .right p {
+    font-size: 6px; /* Reduce font size for smaller screens */
+    margin: 0;
+    padding: 10px; /* Add padding for better spacing */
+    text-align: le;
+  }
+
+  #home {
+    min-height: 80vh;
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  header a {
+    font-size: 20px;
+    padding-right: 2rem;
+  }
+
+  #port {
+    padding-top: 100px;
+    background-color: #000;
+    border-radius: 40px;
+  }
+
+  #port h2 {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 100px;
+  }
+
+  #port p {
+    color: #000000;
+    padding-bottom: 30px;
+  }
+
+  #port span {
+    color: #fff;
+  }
+
+  #portp {
+    margin-left: 100px;
+  }
+
+  /* Style the project containers */
+  .project {
+    border: 2px solid #000000;
+    margin: 30px 10px;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: flex-start;
+    color: #000;
+  }
+  
+
+  .images {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .content h3 {
+    font-size: 16px;
+    font-style: up;
+    text-transform: uppercase;
+  }
+
+  .content h4 {
+    font-size: 10px;
+    font-style: up;
+    text-transform: uppercase;
+  }
+
+  .content h3 a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .content p {
+    font-size: 10px;
+    padding-top: 1rem;
+    text-align: justify;
+  }
 }
